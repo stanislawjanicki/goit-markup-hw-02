@@ -1,26 +1,33 @@
-/* Selektory Klasowe */
-/* Przyc. i linki po najechaniu myszką lub fokusie z klaw. mają akt. stan określ. w przewodniku stylów.*/
-/* Tekst kontaktów w nagł. zmienia kolor przy najech. i fokusie */
-/* Line-height jako współczynnik nie w px */
-/* Color i Bckgcolor odpowiednie do tego z proj. */
-/* Fontweight odpowiada tym z proj. - ustaw gdy inna niż domyśl. 400 */
-/* W stylach nie powt. się wartości ust. jako domyśl. tj. fontstylenormal czy fontweight400 */
+/* Wysokość linii (właściwość line-height) wszystkich elementów tekstowych dokładnie odpowiada wartościom z projektu i jest ustawiona jako współczynnik,
+nie w px. */
 
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 color: #2E2F42;
+line-height: 150%;
 }
 
 h1 {
 font-size: 56px;
 font-weight: 700;
-color: #ffffff
+color: #ffffff;
+line-height: 107%;
 }
 h2 {
     font-size: 36px;
     font-weight: 700;
     color: #2E2F42;
+}
+
+.link {
+    text-decoration: none;
+    color:#2E2F42;
+    font-weight: 500;
+}
+
+.link:hover {
+    color: blue
 }
 
 .title {
@@ -48,8 +55,23 @@ text-align: center;
     background-color: #F4F4FD;
 }
 
+button {
+cursor: pointer;
+}
+
 footer {
     background-color: #2E2F42;
     color: #F4F4FD;
     font-weight: 400;
+}
+
+footer > a {
+    color: #F4F4FD;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
 }
