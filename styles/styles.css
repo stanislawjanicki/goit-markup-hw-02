@@ -1,0 +1,55 @@
+/* Selektory Klasowe */
+/* Przyc. i linki po najechaniu myszką lub fokusie z klaw. mają akt. stan określ. w przewodniku stylów.*/
+/* Tekst kontaktów w nagł. zmienia kolor przy najech. i fokusie */
+/* Line-height jako współczynnik nie w px */
+/* Color i Bckgcolor odpowiednie do tego z proj. */
+/* Fontweight odpowiada tym z proj. - ustaw gdy inna niż domyśl. 400 */
+/* W stylach nie powt. się wartości ust. jako domyśl. tj. fontstylenormal czy fontweight400 */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+color: #2E2F42;
+}
+
+h1 {
+font-size: 56px;
+font-weight: 700;
+color: #ffffff
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2E2F42;
+}
+
+.title {
+background-color: #2E2F42;
+text-align: center;
+}
+
+.list-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+}
+.list-subtext {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+}
+
+.title-button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    font-weight: 400;
+}
