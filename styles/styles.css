@@ -1,6 +1,3 @@
-/* Wysokość linii (właściwość line-height) wszystkich elementów tekstowych dokładnie odpowiada wartościom z projektu i jest ustawiona jako współczynnik,
-nie w px. */
-
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -18,16 +15,6 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     color: #2E2F42;
-}
-
-.link {
-    text-decoration: none;
-    color:#2E2F42;
-    font-weight: 500;
-}
-
-.link:hover {
-    color: blue
 }
 
 .title {
@@ -74,4 +61,13 @@ footer > a {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:focus {
+    color: #4D5AE5;
 }
